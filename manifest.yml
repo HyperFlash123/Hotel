@@ -1,0 +1,13 @@
+---
+applications:
+- name: Hotel-n692
+  memory: 128M
+  #path: G:\Desktop\hotel
+  path: .
+ # buildpack: https://github.com/heroku/heroku-buildpack-php
+ # domain: apps.internal
+  command: "php -f index.php"
+  #health-check-type: process
+  #timeout: 120
+  #env:
+  #  php: C:\xampp\php\php.exe
